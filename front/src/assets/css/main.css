@@ -1,0 +1,72 @@
+@import 'base.css';
+
+table {
+    text-align: center;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+table th {
+    background-color: #d7d6d6;
+}
+table th, table td {
+    border: 1px grey solid;
+    padding: 2px 4px;
+}
+
+.pagi {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border: 1px grey solid;
+    border-bottom: none;
+    background-color: #d7d6d6;
+}
+.pagi-info {
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    width: 120px!important;
+    height: 26px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.first {
+    position: absolute
+}
+#componentContainer {
+    padding: 0;
+    height: min-content;
+    width: 280px;
+    margin-bottom: 0;
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+.paginate-buttons {
+    width: 40px;
+    border-radius: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.number-buttons  {
+    cursor: default;
+    width: 120px;
+    color: #d7d6d6;
+}
+.paginate-buttons:hover {
+    background-color: #d8d8d8;
+}
+.number-buttons:hover {
+    cursor: default;
+    background-color: rgb(242, 242, 242);
+}
+.number-buttons.active:hover {
+    cursor: default;
+    background-color: rgb(242, 242, 242);
+}
